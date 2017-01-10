@@ -29,6 +29,7 @@ setup(
     namespace_packages=['affinitic'],
     include_package_data=True,
     zip_safe=False,
+    extras_require=dict(test=[]),
     install_requires=[
         'setuptools',
         # -*- Extra requirements: -*-
